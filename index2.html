@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- using download files of bootstrap  -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- using b5 shortcut 
+    col in single row will take automatically if we not mention number of col 
+    for example col col col (col-4 col-4 col-4) (total 12) -->
+
+
+
+    <div class="container-fluid">
+
+        <div class="row row-cols-auto align-items-end justify-content-start bg-warning" style="min-height: 400px;">
+
+            <div class="col bg-primary align-self-end ">div 1</div>
+            <div class="col-6 bg-secondary">div 2</div>
+            <div class="col-auto bg-primary">this is a div 3</div>
+            <div class="col bg-danger">this is div 4 with col 4</div>
+
+        </div>
+
+    </div>
+    
+
+    <br> <br> 
+
+    <div class="container-fluid" >
+
+        <div class="row bg-warning" style="min-height: 200px;">
+
+            <div class="col-4 order-lg-2 offset-1 bg-primary">div 1</div>
+            <div class="col-4 order-lg-3 bg-danger">div 2</div>
+            <div class="col-4 order-lg-1 bg-success">div 3</div>
+
+
+        </div>
+
+    </div>
+
+    <!-- using download js files of B5  -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
